@@ -55,5 +55,5 @@ Kini hadir dengan fitur **Dark Mode global** serta pengaturan user yang lebih pe
 
 1. Clone repo ini  
    ```bash
-   git clone https://github.com/username/hafalq.git
+   git clone https://github.com/Hzkun001/hafalq.git
    cd hafalq
