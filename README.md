@@ -1,16 +1,59 @@
-# flutter_application_2
+# HafalQ Quran
 
-A new Flutter project.
+**HafalQ** adalah aplikasi Flutter yang membantu proses hafalan, pembacaan, dan pemahaman Al-Quran, didesain modern dan ramah pengguna.  
+Kini hadir dengan fitur **Dark Mode global** serta pengaturan user yang lebih personal.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- **Daftar Surah Al-Quran Lengkap**  
+  Lihat semua surah dengan pencarian real-time.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Detail Surah & Ayat**  
+  - Arab, terjemahan, dan latin (transliterasi)
+  - Pemutar audio ayat (murottal)
+  - Navigasi ke ayat tertentu
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Sistem Bookmark**  
+  Tandai ayat/surah favorit dan akses di halaman khusus.
+
+- **Pengaturan Personal (Settings)**  
+  - **Edit nama profil pengguna**
+  - **Dark Mode** (global, otomatis tersimpan & langsung aktif)
+  - **Pengaturan volume audio** (slider, tahap awal)
+  - **Pengaturan ukuran font** (slider, tahap awal)
+  - **Tentang Kami**
+
+- **Desain Modern & Responsif**  
+  Tampilan elegan, dukungan dark/light mode, serta animasi halus.
+
+---
+
+## 🆕 Apa yang Baru di v2.2.0?
+
+- **Dark Mode Global**:  
+  Pengaturan dark mode kini benar-benar mengubah tampilan seluruh aplikasi secara otomatis.
+
+- **Peningkatan Settings**:  
+  Pengaturan nama user, volume audio, dan ukuran font kini lebih mudah, dengan penyimpanan otomatis.
+
+- **Struktur Kode Modular**:  
+  Seluruh pengaturan tema dan user kini berbasis Provider dan Service, siap dikembangkan ke fitur lanjutan.
+
+---
+
+## 📸 Screenshot
+
+![Home Page](assets/screenshots/home.png)
+![Detail Surah](assets/screenshots/surah_detail.png)
+![Settings](assets/screenshots/settings.png)
+
+---
+
+## 🚀 Instalasi
+
+1. Clone repo ini  
+   ```bash
+   git clone https://github.com/username/hafalq.git
+   cd hafalq
